@@ -1,0 +1,14 @@
+//
+// Config.hpp(.in)
+// Nathanael Epps
+//
+
+#ifndef CONFIG_HPP
+#define CONFIG_HPP
+
+#include <string>
+
+#define CMAKE_SOURCE_DIR std::string("${CMAKE_SOURCE_DIR}")
+#define HANOI_VERSION std::string("${VERSION}")
+
+#endif
